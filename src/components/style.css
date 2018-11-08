@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*********************************************************************/
+body {
+    background-color: #DCDBD9;
+    color: #2C2C2C;
+    font: normal 100% Cambria, Georgia, serif;
+}
+
+h1 {
+    font-size: 1.25em; /* 20px / 16px */
+}
+
+a {
+    padding-right: 5px;
+}
+
+.page {
+    position: relative;
+    margin: 36px auto;
+    min-height: 700px;
+    width: 90%;
+
+    background: white;
+    box-shadow: 0 0 5px black;
+}
+
+.page-header {
+    margin: 0 auto 53px;
+    ~width: 93.75%;  /* 900px / 960px */
+    padding: 2%;
+    ~border-bottom: 1px solid black;
+}
+
+.page-header::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.page-header-ip-info {
+    float: left;
+    width: 62.8888889%; /* 566px / 900px */
+    ~padding: 0.8em 5.33333333%; /* 48px / 900px */
+    padding-top: 0.8em;
+}
+
+.page-header-ip-photo {
+    float: right;
+    width: 200px;
+    margin: 0.8em;
+    height: 200px;
+    ~background: url("") no-repeat;
+    ~background-size: 100%;
+    background-color: blue;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.page-footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+}
+
+.payment-any-bank {
+    margin: 0 auto 10px;
+    width: 93.75%;  /* 900px / 960px */
+}
+
+.payment-user-bank {
+    margin: 0 auto 20px;
+    width: 93.75%;  /* 900px / 960px */
+}
+
+.payment-request {
+    margin: 0 auto 20px;
+    width: 93.75%;  /* 900px / 960px */
+}
